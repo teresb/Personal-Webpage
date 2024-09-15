@@ -1,0 +1,293 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'sans-serif', Times, serif;
+}
+body{
+  background: #4679cb;
+}
+section{
+  margin: 100px 0px;
+}
+h2{
+  letter-spacing: 3px;
+  font-size: 50px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+
+/* header-section*/
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px 30px;
+}
+.logo{
+  color:#caf0f8;
+  font-size: 35px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  font-family: 'Lucida handwriting';
+}
+span{
+  color: #4679cb;
+  font-family: 'Lucida handwriting';
+}
+header ul li{
+  list-style-type: none ;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 25px;
+}
+header ul li a{
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+header ul li a:hover{
+  color:#caf0f8;
+  transition: .4s;
+}
+.header-btn{
+  color:#03045e;
+  background-color:#caf0f8;
+  text-decoration: none;
+  border: 2px solid #03045e;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px 25px;
+  transition: transform 0.4s;
+}
+.header-btn:hover{
+  transform: scale(1.1);
+}
+
+
+/*home-section*/
+.home{
+  text-align: center;
+  line-height: 2;
+  font-size: x-large;
+}
+.home-btn{
+  color:#03045e;
+  background-color:#caf0f8;
+  text-decoration: none;
+  border: 2px solid #03045e;
+  padding: 10px 25px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: transform 0.4s ease;
+}
+.home-btn:hover{
+  transform: scale(1.1);
+}  
+
+
+/*About-section*/
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 200px;
+}
+.about img{
+  height: auto;
+  width: 300px;
+  border-radius: 30px;
+  margin-right: 100px;
+}
+.about-text h2{
+  margin-bottom: 20px;
+  text-align: left;
+}
+.about-text h5{
+  letter-spacing: 3px;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.about-text p{
+  font-size: large;
+  margin-bottom: 15px;
+  line-height: 25px;
+  width: 450px;
+}
+.about-btn{
+  color:#03045e;
+  background-color:#caf0f8;
+  text-decoration: none;
+  border: 2px solid #03045e;
+  border-radius: 10px;
+  font-weight: bold;
+  padding: 10px 25px;
+  font-size: large;
+  transition: transform .4s;
+}
+.about-btn:hover{
+  transform: scale(1.2);
+}
+
+
+/*skills-section*/
+.skills-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 100px;
+}
+.skill-card{
+  height: auto;
+  width: 280px;
+  background-color: white;
+  border-radius: 15px;
+}
+.skill-title{
+  display: flex;
+  background-color: black ;
+  border-radius: 15px 15px 0px 0px;
+  color: #4679cb;
+  padding: 30px 30px;
+  font-size: 20px;
+}
+i{
+  margin-right: 10px;
+}
+.skill-card ul{
+  list-style-type: none;
+  margin: 20px 30px;
+  line-height: 30px;
+  letter-spacing: 1px;
+  font-size: medium;
+  font-weight: bold;
+}
+.skill-card ul li::before{
+  content: "\f058";
+  font-family: "Font Awesome 5 Free";
+  margin-right: 10px;
+}
+
+
+/*project-section*/
+.project-container{
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 100px;
+}
+.project-card{
+  height: 380px;
+  width: 270px;
+  border-radius: 15px;
+  border: 2px solid #03045e;
+  background-color: white;
+  text-align: center;
+}
+.project-card img{
+  border-radius: 15px;
+  border: 2px solid #03045e;
+  margin: 20px 20px;
+}
+.project-title{
+  font-size: large;
+  font-weight: bold;
+  padding: 0px 0px 30px;
+}
+.project-btn{
+  color:#03045e;
+  background-color:#caf0f8;
+  text-decoration: none;
+  border: 2px solid #03045e;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px 0px;
+  font-weight: bold;
+  font-size: large;
+  transition: transform .4s;
+}
+.project-btn:hover{
+  transform: scale(1.2);
+}
+
+
+/*contact-section*/
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 40px 100px;
+}
+.contact-card{
+  width: 280px;
+  height: 140px;
+  background-color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px;
+  border: 2px solid #03045e;
+  justify-content: center;
+}
+.contact-card i{
+  font-size: 30px;
+  margin: 10px 20px;
+}
+.contact-title{
+  font-size: large;
+  font-weight: bold;
+  padding: 0px 0px 15px;
+}
+.contact-btn{
+  color:#03045e;
+  background-color:#caf0f8;
+  text-decoration: none;
+  border: 2px solid #03045e;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin: 100px auto;
+  font-weight: bold;
+  font-size: large;
+  transition: transform 0.4s;
+}
+.contact-btn{
+  transform: scale(1.2);
+}
+
+
+/*footer-section*/
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 30px;
+}
+footer h5{
+  color:#caf0f8;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+footer ul li{
+  list-style-type: none ;
+  display: inline-block;
+  padding: 10px 25px;
+}
+footer ul li a{
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+header ul li a:hover{
+  color:#caf0f8;
+  transition: .4s;
+}
+.icons a{
+  font-size: 30px;
+  color:#caf0f8;
+}
+.icons a:hover{
+  font-size: 30px;
+  color:black;
+}
